@@ -44,11 +44,11 @@ const response = respond({
 
 #### Options
 
-* `statusCode` (default = 200) Allows the control of the request's response status code
+* `statusCode` (default = `200`) Allows the control of the request's response status code
 * `contentType` (default = `application/json`) Sets the content-type header and if it is JSON, the function will stringify the value
 * `headers` (default = `{}`) Key-value pair of headers and their values
-* `isBinary` (default = false) If set to true, the value is expected to be a `Buffer` and will base64 encode the value
-* `cors` (default = false) If `true`, will assume the defaults for the available cors options. Otherwise, an object can be assigned to control specific aspects of the cors headers.
+* `isBinary` (default = `false`) If set to true, the value is expected to be a `Buffer` and will base64 encode the value
+* `cors` (default = `false`) If `true`, will assume the defaults for the available cors options. Otherwise, an object can be assigned to control specific aspects of the cors headers.
   * origin (default = `*`) Controls the [access-control-allow-origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS#Access-Control-Allow-Origin) header
   * maxAge (default = `86400`) Controls the [access-control-max-age](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS#Access-Control-Max-Age) header
   * credentials (default = `false`) Controls the [access-control-allow-credentials](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS#Access-Control-Allow-Credentials) header
