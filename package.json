@@ -1,0 +1,12 @@
+{
+  "name": "@goodwaygroup/lambda-proxy-util",
+  "version": "1.0.0",
+  "description": "Standardize Serverless lambda-proxy responses",
+  "main": "index.js",
+  "repository": "git@github.com:GoodwayGroup/lambda-proxy-response.git",
+  "author": "Julian Lannigan <julian.lannigan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-goodway": "^1.2.0"
+  }
+}
